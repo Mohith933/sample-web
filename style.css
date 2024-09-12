@@ -77,3 +77,11 @@ img{
 border-radius:10px;
 margin:10px;
 }
+@media (max-width:768px){
+  body{
+    font-size:14px;
+  }
+  nav{
+    display:block;
+  }
+}
