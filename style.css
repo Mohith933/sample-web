@@ -32,6 +32,9 @@ nav {
        url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.ttf") format("truetype"),
        url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.svg#ISOCP") format("svg");
 }
+section{
+  padding:10px; 
+}
 
 h1 {
   font-weight: bold;
