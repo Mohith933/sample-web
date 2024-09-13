@@ -10,11 +10,11 @@ body {
   background-size:cover;
   color: white;
   font-family: ISOCP, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 h1, p {
-  font-family: Arial;
+  font-family: ISOCP;
 }
 
 nav {
@@ -53,6 +53,9 @@ a, button {
 a:hover, button:hover {
   color: skyblue;
 }
+section{
+  padding:30px;
+}
 
 img {
   border-radius: 10px;
@@ -61,7 +64,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   a {
@@ -76,5 +79,6 @@ img {
 
   img {
     width: 100%;
+    height: auto;
   }
 }
