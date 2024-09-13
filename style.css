@@ -5,7 +5,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color:black;
+  background:url("space.png");
+  background-repeat:norepeat;
+  background-size:cover;
   color: white;
   font-family: ISOCP, Arial, sans-serif;
   font-size: 25px;
