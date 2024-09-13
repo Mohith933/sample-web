@@ -5,8 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-repeat: inherit;
-  background-size: cover;
+  background-color:black;
   color: white;
   font-family: ISOCP, Arial, sans-serif;
   font-size: 25px;
@@ -32,10 +31,6 @@ nav {
        url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.ttf") format("truetype"),
        url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.svg#ISOCP") format("svg");
 }
-section{
-  padding:10px; 
-}
-
 h1 {
   font-weight: bold;
 }
