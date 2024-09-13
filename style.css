@@ -10,7 +10,7 @@ body {
   background-size:cover;
   color: white;
   font-family: ISOCP, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 12px;
 }
 
 h1, p {
@@ -61,7 +61,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 12px;
+    font-size: 30px;
   }
 
   a {
