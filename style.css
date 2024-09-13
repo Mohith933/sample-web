@@ -19,7 +19,15 @@ top:0;
 padding:5px;
 background-color:black;
 }
-
+@font-face {
+font-family: "ISOCP";
+src: url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.eot");
+src: url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.eot?#iefix")format("embedded-opentype"),
+url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.woff2")format("woff2"),
+url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.woff")format("woff"),
+url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.ttf")format("truetype"),
+url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.svg#ISOCP")format("svg");
+}
 p{
 font-family:ISOCP;
 }
