@@ -10,18 +10,20 @@ body {
   background-size:cover;
   color: white;
   font-family: ISOCP, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h1, p {
-  font-family: ISOCP;
+  font-family: Arial;
 }
 
 nav {
   position: sticky;
   top: 0;
   padding: 5px;
-  background-color: black;
+  background-color: transparent;
+  box-shadow: 5px 5px 5px 5px(0,0,0,0.1);
+  backdrop-filter: blur(10px);
 }
 
 @font-face {
@@ -68,7 +70,7 @@ img {
 
   nav {
     padding: 10px;
-    background-color: black;
+    background-color: transparent;
     color: white;
   }
 
