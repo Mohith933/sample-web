@@ -92,6 +92,13 @@ font-size:16px;
   a{
     font-size:12px;
   }
+  nav{
+    position:sticky;
+    top:0;
+    padding:10px;
+    background-color:black;
+    color:white;
+  }
   img{
     width:100%;
   }
