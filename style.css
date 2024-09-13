@@ -39,6 +39,7 @@ h1 {
 
 a, button {
   border: 0;
+  text-decoration:none;
   border-radius: 0;
   padding: 10px 20px;
   font-size: 18px;
