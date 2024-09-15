@@ -3,14 +3,14 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   background:url("space.png");
   background-repeat:norepeat;
   background-size:cover;
   color: white;
   font-family: ISOCP, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 12px;
 }
 
 h1, p {
@@ -20,7 +20,7 @@ h1, p {
 nav {
   position: sticky;
   top: 0;
-  padding: 10px;
+  padding: 5px;
   background-color: transparent;
   box-shadow: 5px 5px 5px 5px(0,0,0,0.1);
   backdrop-filter: blur(10px);
@@ -41,8 +41,7 @@ h1 {
 
 a, button {
   border: 0;
-  text-decoration:none;
-  border-radius: 0;
+  text-decoration:none;
   padding: 10px 20px;
   font-size: 18px;
   background-color: transparent;
@@ -63,17 +62,17 @@ img {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 1.5rem;
+    font-size: 12px;
   }
 
   a {
     font-size: 10px;
   }
 
-  nav {
-    padding: 10px;
-    background-color: transparent;
-    color: white;
+  nav {
+    postion:sticky;
+    top:0;
+    padding:5px;
   }
 
   img {
