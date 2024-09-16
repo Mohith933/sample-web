@@ -17,16 +17,4 @@ document.querySelectorAll('nav a').forEach(anchor => {
         });
     });
 });
-
-// Show/Hide Navigation for mobile
-const nav = document.querySelector('nav');
-const navToggle = document.createElement('button');
-navToggle.textContent = 'Menu';
-navToggle.style.fontSize = '16px';
-navToggle.style.padding = '10px';
-navToggle.style.margin = '10px';
-document.body.insertBefore(navToggle, document.body.firstChild);
-
-navToggle.addEventListener('click', () => {
-    nav.classList.toggle('show');
-});
+
