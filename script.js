@@ -1,11 +1,17 @@
 function increase() {
     document.getElementById('Frame').style.transform = 'scale(1.2)';
     document.getElementById('Frame').style.transition = 'transform 0.3s ease';
+document.getElementBId('img').style.transform = 'scale(1.2)';
+document.getElementById('img').style.transition = 'transform 0.3s ease';
+
 }
 
 // JavaScript function to revert image size on mouseout
 function decrease() {
     document.getElementById('Frame').style.transform = 'scale(1)';
+   document.getElementById('img').style.transform = 'scale(1)';
+
+
 }
 
 // Smooth scrolling for navigation links
