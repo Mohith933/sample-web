@@ -64,7 +64,7 @@ font-size:25px;
 .text a{
 color:white;
 font-size:14px;
-padding:10px 20px;
+padding:10px 10px;
 }
 .text .small{
 font-size:12px;
@@ -79,9 +79,9 @@ header{
 padding:0 30px;
 }
 }
-@media (max-width:767px){
+@media (max-width:600px){
 body{
-font-size:1.5rem;
+font-size:1rem;
 }
 img{
 width:100%;
