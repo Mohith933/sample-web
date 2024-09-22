@@ -1,82 +1,126 @@
-html {
-  scroll-behavior: smooth;
+*{
+margin:0px;
+padding:0px;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
 }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  background:url("space.png");
-  background-repeat:norepeat;
-  background-size:cover;
-  color: white;
-  font-family: ISOCP, Arial, sans-serif;
-  font-size: 12px;
+html{
+scroll-behavior:smooth;
 }
-
-h1, p {
-  font-family: ISOCP;
+body{
+background-repeat:inherit;
+background-size: cover;
+color:white;
+font-family:ISOCP;
+font-size:25px;
 }
-
-nav {
-  position: sticky;
-  top: 0;
-  padding: 10px;
-  background-color: transparent;
-  box-shadow: 5px 5px 5px 5px(0,0,0,0.1);
-  backdrop-filter: blur(10px);
+header{
+position: sticky;
+top:0;
+width:100%;
+height:80px;
+background:black;
+color:white;
+justify-content:space-between;
+display:flex;
+align-items:center;
+padding:0 100px;
 }
-
-@font-face {
-  font-family: "ISOCP";
-  src: url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.eot");
-  src: url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.eot?#iefix") format("embedded-opentype"),
-       url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.woff2") format("woff2"),
-       url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.woff") format("woff"),
-       url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.ttf") format("truetype"),
-       url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.svg#ISOCP") format("svg");
+.logo{
+font-size:28px;
 }
-h1 {
-  font-weight: bold;
+.navbar ul{
+display:flex;
 }
-
-a, button {
-  border: 0;
-  text-decoration:none;
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: transparent;
-  color: white;
-  cursor: pointer;
+.navbar ul li  a{
+display:block;
+padding:10px 20px;
+font-size:18px;
+color:white;
 }
-
-a:hover, button:hover {
-  color: skyblue;
+.hamburger{
+display:none;
+}
+h1,p{
+font-family:ISOCP;
+}
+button{
+border:1px;
+background-color:transparent;
+cursor:pointer;
+padding:10px 20px;
+color:white;
 }
 section{
-  padding:10px;
+padding:30px;
 }
-
-img {
-  border-radius: 10px;
+img{
+border-radius:10px;
 }
-
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 12px;
-  }
-
-  a {
-    font-size: 10px;
-  }
-
-  nav {
-    postion:sticky;
-    top:0;
-    padding:10px;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
+.text h2{
+font-size:25px;
+}
+.text a{
+color:white;
+font-size:14px;
+padding:10px 20px;
+}
+.text .small{
+font-size:12px;
+}
+@media (max-width:1320px){
+header{
+padding:0 50px;
+}
+}
+@media (max-width:1100px){
+header{
+padding:0 30px;
+}
+}
+@media (max-width:767px){
+body{
+font-size:1.5rem;
+}
+img{
+width:100%;
+height:auto;
+}
+.hamburger{
+display:block;
+cursor:pointer;
+}
+.hamburger .line{
+width:30px;
+height:3px;
+margin:6px 0px;
+background:white;
+}
+.navbar{
+    position:absolute;
+    height:0px;
+    top:80px;
+    background:black;
+    left:0;
+    width:100vw;
+    right:0;
+    transition:0.1em;
+}
+.navbar ul{
+    display:block;
+    width:fit-content;
+    text-align:center;
+    margin:80px auto 0px auto;
+    opacity:0;
+}
+.navbar ul li a{
+    margin-bottom:12px;
+}
+.navbar.active{
+    height:450px;
+}
+.navbar.active ul{
+    opacity:1;
+}
 }
