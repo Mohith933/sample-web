@@ -21,7 +21,7 @@ function decrease() {
 // Hamburger menu toggle
 const hamburger = document.querySelector('.hamburger');
 const navBar = document.querySelector('.navbar');
-const links = document.querySelectorAll('nav a');
+const links = document.querySelectorAll('a');
 
 hamburger.onclick = function() {
     navBar.classList.toggle('active');
