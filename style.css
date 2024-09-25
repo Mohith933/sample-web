@@ -12,7 +12,7 @@ body{
 background-repeat:inherit;
 background-size: cover;
 color:white;
-font-family:Times New Roman;
+font-family:ISOCP;
 font-size:0.5rem;
 }
 header{
@@ -42,8 +42,17 @@ color:white;
 .hamburger{
 display:none;
 }
+@font-face {
+    font-family: "ISOCP";
+    src: url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.eot");
+    src: url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/cac2e3a86ed8f05a97a43aaf458b3d04.svg#ISOCP")format("svg");
+}
 h1,p{
-font-family:Times New Roman;
+font-family:ISOCP;
 }
 button{
 border:1px;
