@@ -96,7 +96,7 @@ background:white;
 }
 .navbar {
     position: absolute;
-    z-index: 100;
+    z-index: 1000;
     height: 0;
     overflow: hidden; /* Add this to hide the content when navbar is closed */
     top: 80px;
