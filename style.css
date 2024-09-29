@@ -84,6 +84,9 @@ img{
 width:100%;
 height:auto;
 }
+.Frame{
+ padding:50px;
+}
 .hamburger{
 display:block;
 cursor:pointer;
