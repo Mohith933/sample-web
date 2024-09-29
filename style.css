@@ -42,6 +42,9 @@ color:white;
 .hamburger{
 display:none;
 }
+.Frame{
+ padding:50px;
+}
 button{
 border:1px;
 background-color:transparent;
