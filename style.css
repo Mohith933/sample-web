@@ -9,13 +9,14 @@ html{
 scroll-behavior:smooth;
 }
 body{
-background-repeat:inherit;
-background-size: cover;
+background-repeat:initial;
+background-size:cover;
 color:white;
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:1em;
 }
-h1,p{
- font-size:1rem;
+.Frame{
+padding:0px;
 }
 header{
 position: sticky;
@@ -44,9 +45,6 @@ color:white;
 .hamburger{
 display:none;
 }
-.Frame{
- padding:50px;
-}
 button{
 border:1px;
 background-color:transparent;
@@ -56,6 +54,7 @@ color:white;
 }
 section{
 padding:50px;
+margin-bottom:20px;
 }
 img{
 border-radius:10px;
@@ -82,18 +81,15 @@ padding:0 30px;
 }
 }
 @media (max-width:767px){
-body{
-font-size:1rem;
+.Frame{
+padding:50px;
 }
 section{
- padding:30px;
+padding:20px;
 }
 img{
 width:100%;
 height:auto;
-}
-.Frame{
- padding:50px;
 }
 .hamburger{
 display:block;
@@ -105,47 +101,43 @@ height:3px;
 margin:6px 0px;
 background:white;
 }
-.navbar {
-    position: absolute;
-    z-index: 1000;
-    height: 0;
-    overflow: hidden; /* Add this to hide the content when navbar is closed */
-    top: 80px;
-    background: black;
-    left: 0;
-    width: 100vw;
-    right: 0;
-    transition: height 0.3s ease; /* Adjusted transition */
+.navbar{
+    position:absolute;
+z-index:1000;
+overflow:hidden;
+    height:0px;
+    top:80px;
+    background:black;
+    left:0;
+    width:100vw;
+    right:0;
+    transition:0.5s;
+    transition:0.1em;
 }
-
-.navbar ul {
-    display: block;
-    width: fit-content;
-    text-align: center;
-    margin: 80px auto 0px auto;
-    opacity: 0;
-    transition: opacity 0.3s ease; /* Add transition for opacity */
+.navbar ul{
+    display:block;
+    width:fit-content;
+    text-align:center;
+    margin:80px auto 0px auto;
+    transition:1s;
+    opacity:0;
 }
-
-.navbar ul li a {
-    margin-bottom: 12px;
-    color: white; /* Ensure links are visible */
-    text-decoration: none;
+.navbar ul li a{
+    margin-bottom:12px;
+    transition:1s;
 }
-
-.navbar.active {
-    height: 450px;
+.navbar.active{
+    height:450px;
 }
-
-.navbar.active ul {
-    opacity: 1; /* Make links visible when navbar is active */
+.navbar.active ul{
+    opacity:1;
 }
- .text h2{
+.text h2{
 font-size:1rem;
 }
 .text a{
 color:white;
-font-size:0.7rem;
+font-size:0.5rem;
 padding:10px 10px;
 }
 .text .small{
