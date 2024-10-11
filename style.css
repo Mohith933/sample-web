@@ -1,0 +1,146 @@
+*{
+margin:0px;
+padding:0px;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+}
+html{
+scroll-behavior:smooth;
+}
+body{
+background-repeat:initial;
+background-size:cover;
+color:white;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:1em;
+}
+.Frame{
+padding:0px;
+}
+header{
+position: sticky;
+top:0;
+width:100%;
+height:80px;
+background:black;
+color:white;
+justify-content:space-between;
+display:flex;
+align-items:center;
+padding:0 100px;
+}
+.logo{
+font-size:28px;
+}
+.navbar ul{
+display:flex;
+}
+.navbar ul li  a{
+display:block;
+padding:10px 20px;
+font-size:18px;
+color:white;
+}
+.hamburger{
+display:none;
+}
+button{
+border:1px;
+background-color:transparent;
+cursor:pointer;
+padding:10px 20px;
+color:white;
+}
+section{
+padding:50px;
+margin-bottom:20px;
+}
+img{
+border-radius:10px;
+}
+.text h2{
+font-size:35px;
+}
+.text a{
+color:white;
+font-size:25px;
+padding:10px 10px;
+}
+.text .small{
+font-size:20px;
+}
+@media (max-width:1320px){
+header{
+padding:0 50px;
+}
+}
+@media (max-width:1100px){
+header{
+padding:0 30px;
+}
+}
+@media (max-width:767px){
+.Frame{
+padding:50px;
+}
+section{
+padding:20px;
+}
+img{
+width:100%;
+height:auto;
+}
+.hamburger{
+display:block;
+cursor:pointer;
+}
+.hamburger .line{
+width:30px;
+height:3px;
+margin:6px 0px;
+background:white;
+}
+.navbar{
+    position:absolute;
+z-index:1000;
+overflow:hidden;
+    height:0px;
+    top:80px;
+    background:black;
+    left:0;
+    width:100vw;
+    right:0;
+    transition:0.5s;
+    transition:0.1em;
+}
+.navbar ul{
+    display:block;
+    width:fit-content;
+    text-align:center;
+    margin:80px auto 0px auto;
+    transition:1s;
+    opacity:0;
+}
+.navbar ul li a{
+    margin-bottom:12px;
+    transition:1s;
+}
+.navbar.active{
+    height:450px;
+}
+.navbar.active ul{
+    opacity:1;
+}
+.text h2{
+font-size:1rem;
+}
+.text a{
+color:white;
+font-size:0.5rem;
+padding:10px 10px;
+}
+.text .small{
+font-size:0.5rem;
+}
+}
