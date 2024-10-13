@@ -63,15 +63,15 @@ img{
 border-radius:10px;
 }
 .text h2{
-font-size:1.5rem;
+font-size:2rem;
 }
 .text a{
 color:white;
-font-size:1rem;
+font-size:1.5rem;
 padding:10px 10px;
 }
 .text .small{
-font-size:0.5rem;
+font-size:1rem;
 }
 @media (max-width:1320px){
 header{
