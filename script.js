@@ -10,3 +10,30 @@ links.forEach(link => {
     }
 
 });
+//Add the script is
+document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+
+    // Function to check if section is in view
+    function checkSectionInView() {
+        const windowHeight = window.innerHeight;
+
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+
+            if (sectionTop < windowHeight && sectionTop >= 0) {
+                // Add animation classes when the section is in view
+                if (section.id === "Home") {
+                    section.querySelector('.Frame').classList.add('scale-in');
+                } else {
+                    section.classList.add('slide-in');
+                }
+            }
+        });
+    }
+
+    // Check on scroll
+    window.addEventListener('scroll', checkSectionInView);
+    // Initial check on load
+    checkSectionInView();
+});
