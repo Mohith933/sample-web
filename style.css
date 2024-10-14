@@ -13,15 +13,7 @@ background-repeat:initial;
 background-size:cover;
 color:white;
 font-family:Arial, Helvetica, sans-serif;
-}
-h1{
-    font-size:25px;
-        }
-h2{
-    font-size:20px;
-}
-p{
-    font-size:16px;
+font-size:25px;
 }
 header{
 position: sticky;
@@ -85,21 +77,21 @@ font-size:1rem;
 header{
 padding:0 50px;
 }
+body {
+    font-size:12px;
+}
 }
 @media (max-width:1100px){
 header{
 padding:0 30px;
 }
+body{
+    font-size:14px;
+}
 }
 @media (max-width:767px){
-h1{
-font-size:1.5rem;
-}
-h2{
-font-size:1rem;
-}
-p{
-    font-size:0.7rem;
+body{
+    font-size:1rem;
 }
 .Frame{
 height:10rem;
