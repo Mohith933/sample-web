@@ -12,7 +12,7 @@ body{
 background-color: black;
 color:white;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
-font-size:25px;
+font-size:1.5vw;
 }
 header{
 position: sticky;
@@ -72,15 +72,15 @@ img{
 border-radius:10px;
 }
 .text h2{
-font-size:2rem;
+font-size:2em;
 }
 .text a{
 color:white;
-font-size:1.5rem;
+font-size:1.5em;
 padding:10px 10px;
 }
 .text .small{
-font-size:1rem;
+font-size:1em;
 }
 @media (max-width:1320px){
 header{
@@ -101,7 +101,7 @@ header{
 padding:0 30px;
 }
 body{
-    font-size:14px;
+    font-size:1vw;
 }
 #Home{
 padding:0px;
@@ -118,7 +118,7 @@ img{
 }
 @media (max-width:767px){
 h1{
-font-size:25px;
+font-size:30px;
 }
 h2{
 font-size:25px;
