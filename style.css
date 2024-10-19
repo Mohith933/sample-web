@@ -86,8 +86,8 @@ font-size:1em;
 header{
 padding:0 50px;
 }
-h1,h2,p{
-    font-size:1vw;
+body{
+font-size:1vw;
 }
 #Home{
 padding:0px;
@@ -100,7 +100,7 @@ img{
 header{
 padding:0 30px;
 }
-h1,h2,p{
+body{
     font-size:1vw;
 }
 #Home{
